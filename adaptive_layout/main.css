@@ -1,0 +1,395 @@
+/*
+	Style Reset
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+/*
+	for IE
+*/
+
+* > img {
+	border: none;
+	}
+
+.logotype > img {
+	width: 65%;
+	}
+
+/*
+	Header
+*/
+
+header > .line_first, header > .line_second, header > .line_third, header > .line_forth {
+	display: inline block;
+	width: 12.5%;
+	padding-top: 4px;
+	float: left;
+	}
+
+/*
+	pictures
+*/
+
+.line_first {
+	background-color: #2fbb99;
+	}
+
+.line_second {
+	background-color: #96d659;
+	}
+
+.line_third {
+	background-color: #c0d952;
+	}
+
+.line_forth {
+	background-color: #3c99b4;
+	}
+
+.logotype {
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 1vh;
+	margin-left: 7vw;
+	}
+
+.logotype:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+	}
+
+.logotype p {
+	color: #565656;
+	}
+
+nav {
+	float: left;
+	text-align: center;
+	width: 50vw;
+	height: 10vh;
+	padding-top: 2vh;
+	}
+
+nav:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+	}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 20px;
+	color: #acd0db;
+	text-decoration: none;
+	}
+
+.sign {
+	color: #52c4a7;
+	}
+
+nav a:hover {
+	background-color: #33879e;
+	color: #b8d2da;
+	}
+
+.sign:hover {
+	color: #52c4a7;
+	text-decoration: underline;
+	background-color: white;
+	}
+
+article {
+	padding-top: 3.4vh;
+	}
+
+article > a {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #acd0db;
+	}
+
+article:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+	}
+
+.button_picture > img {
+	width: 1.5%;
+	margin-bottom: -4px;
+	}
+
+section {
+	position: absolute;
+	top: 10vh;
+	background: url( pictures/logo_back.png ) no-repeat;
+	background-size: 100%;
+	height: 30vh;
+	width: 100%;
+	}
+
+section a {
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 20px;
+	position: relative;
+	left: 40vw;
+	top: 16vh;
+	margin-top: 5vh;
+	margin-left: 2vw;
+	box-shadow: 0 0 2px 3px rgba( 130, 130, 130, 1 );
+	padding: 1vh;
+	background: linear-gradient( to bottom, #0082b2 0%,#2989d8 50%,#207cca 50%,#0082b2 100% );
+	color: #ffffff;
+	}
+
+section a:hover {
+	margin-top: 5vh;
+	margin-left: 2vw;
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid #666;
+	border-radius: 20px;
+	box-shadow: 0 0 3px rgba( 130,130,130,0.7 );
+	padding: 1vh;
+	background: linear-gradient( to bottom, #0094d8 0%,#207cca 47%,#2989d8 50%,#006e96 100% );
+	color: #ffffff;
+	}
+
+section:hover {
+	background: url( pictures/logo_front.png ) no-repeat;
+	background-size: 100%;
+	}
+
+section img {
+	margin-top: 5vh;
+	margin-left: 13vw;
+	position: absolute;
+	clip: rect( 0, auto, 25vh, 0 ) ;
+	height: 150%;
+	}
+
+section h1 {
+	position: absolute;
+	width: 40vw;
+	left: 40vw;
+	padding-top: 5vh;
+	color: #ffffff;
+	font-size: 5vh;
+	}
+
+section h5 {
+	position: absolute;
+	top: 16vh;
+	left: 40vw;
+	color: #ffffff;
+	padding-top: 1vhs;
+	}
+
+.pictures_round .arrow_logo {
+	width: 3%; 
+	}
+
+.pictures_round {
+	position: absolute;
+	top: 40vh;
+	width: 100vw;
+	height: 15vh;
+	background-color: #eff8fb;
+	}
+
+.pictures_round div {
+	display: inline-block;
+	padding-top: 1vh;
+	text-align: center;
+	width: 30%;
+	color: #33879e;
+	font-size: 10px;
+	}
+
+.arrow_logo > img {
+	margin-bottom: 2.6vh;
+	}
+
+.pictures_round div a {
+	font-size: 20px;
+	text-decoration: none; 
+	color: #63b7ce; 
+	opacity: 0.5;
+	}
+
+.pictures_round div a:hover {
+	color: #33879e;
+	opacity: 1;
+	}
+
+.pictures_round > .first_round > a > img {
+	height: 50px;
+	}
+
+.pictures_round > .second_round > a > img {
+	height: 50px;
+	}
+
+.pictures_round > .third_round > a > img {
+	height: 50px;
+	}
+
+.pictures_round > .arrow_logo > img {
+	height: 49px;
+	}
+
+.round_windows {
+	position: absolute;
+	top: 56vh;
+	width: 100%;
+	height: 35vh;
+	text-align: center;
+	}
+
+.round_windows .pic_first, .round_windows .pic_second, 
+.round_windows .pic_third, .round_windows .pic_forth {
+	display: inline-block;
+ 	float: left;
+	height: 30vh;
+	width: 25%;
+	}
+
+.round_windows .pic_first a img,
+.round_windows .pic_second a img,
+.round_windows .pic_third a img,
+.round_windows .pic_forth a img {
+	border-radius: 100%;
+	border: 4px solid #caeae2;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	opacity: 0.5;
+	}
+
+.round_windows .pic_first a img:hover,
+.round_windows .pic_second a img:hover,
+.round_windows .pic_third a img:hover,
+.round_windows .pic_forth a img:hover {
+	opacity: 1;
+	}
+
+.round_windows .pic_first p,
+.round_windows .pic_second p,
+.round_windows .pic_third p,
+.round_windows .pic_forth p {
+	color: #AAA;
+ 	font-size: 13px;
+ 	}
+
+.footer_function {
+	position: relative;
+	text-align: center;
+	top: 67vh;
+	width: 100%;
+	display: inline-block;
+	}
+
+.footer_function a {
+	border: 2px solid #addfd3;
+	border-radius: 18px;
+	text-align: center;
+	text-decoration: none;
+	padding: 6px;
+	padding-left: 14px;
+	padding-right: 8px;
+	color: #addfd3;
+	}	
+
+.footer_function > a > img {
+	margin-bottom: -8px;
+	}	
+
+.footer_function a:hover { 
+	border: 2px solid #addfd3;
+	border-radius: 18px;
+	text-align: center;
+	text-decoration: none;
+	padding: 6px;
+	padding-left: 14px;
+	padding-right: 8px;
+	background-color: #addfd3;
+	color: #fff;
+	}	
+
+footer {
+	background-color: #295b69;
+	bottom: 0;
+	position: absolute;
+	height:11vh;
+	width: 100%
+	}
+
+footer .first_level_footer {
+	padding-top: 0.6vh;
+	}
+
+footer .first_level_footer div {
+	padding-top: 0;
+	color:#597a85;
+	font-size: 13px;
+	}
+
+footer .first_level_footer:nth-child(2) {
+	border-top: 2px solid #2e5f6c;
+	padding-left: 5vw;
+	}
+
+footer .first_level_footer .information .email {
+	color: #FFFFFF;
+	}
+
+footer .first_level_footer div:nth-child(2) {
+	float: left;
+	padding-left: 5vw;
+	border-top: 0;
+	}
+
+footer img:nth-child(1) {
+	float: right;
+	padding-right: 10px;
+	}
+
+footer .first_level_footer .information a {
+	padding-right: 0;
+	}
+
+footer .first_level_footer div:first-child {
+	float: left;
+	padding-left: 5vw;
+	}
+
+footer .first_level_footer a {
+	color: #597a85;
+	padding-right: 5vh;
+	text-decoration: none;
+	}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
